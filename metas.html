@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="utf-8">
+   <head>
+    <title>METAS SECCIONALES</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1 id='encabezado'>METAS SECCIONALES</h1><br /> <!--titulo-->
+  <h3 id='titulo2'>Datos:</h3>
+  <select id="datos" class="select">
+    <option value="LISTANOMIN" selected=true>Lista Nominal</option>
+    <option value="P18_12">Participación 2015 con métricas de 2012</option>
+    <option value="E_PRI">Estimación del voto PRI</option>
+    <option value="VNS1_3">Voto necesario por sección 1.3M</option>
+    <option value="VNS1_8">Voto necesario por sección 1.8M</option>
+    <option value="DIFV_13_18">Diferencia de votos 1.3 a 1.8M</option>
+  </select>
+
+  <div class="ui-widget">
+	  <input id="txtSearch">  
+    <button type="button" onclick="busquedaDatos()">Buscar</button>
+  </div>
+
+
+  <div id="titulo"></div>
+</body>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script   script src="js/scriptSource.js" >  </script>
+</html>

@@ -1,0 +1,76 @@
+/*Los colores para las clases de población*/
+  .q0 { fill:#fcc383; }
+  .q1 { fill:#fc9f67; }
+  .q2 { fill:#f4794e; }
+  .q3 { fill:#e65338; }
+  .q4 { fill:#ce2a1d; }
+  .q5 { fill:#b30000; }
+
+  #encabezado{
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    font: century   /*2em arial*/;
+    color: black
+  }
+
+  #titulo{
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    font:16px arial;
+    color: steelblue;
+  }
+
+  #titulo2{
+    position: absolute;
+    top: 50px;
+    left: 900px;
+    font:16px arial;
+    color: steelblue;
+  }
+  #datos{
+    position: absolute;
+    top: 65px;
+    left: 950px;
+  }
+
+  h1 {
+    font-family:arial;
+    font-size:2em;
+    color:#333;
+  }
+
+  #partido{
+    position: absolute;
+    top: 100px;
+    left: 650px;
+  }
+
+  .variable{
+    position: absolute;
+    top: 130px;
+    left: 665px;
+  }
+
+  .background {
+    fill: none;
+    pointer-events: all;
+  }
+
+  #estados .active {
+    stroke: black;
+  }
+
+  #bars {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 33px;
+  }
+
+  .bar text {
+    fill: black;
+    font: 13px sans-serif;
+    font-weight: bold;
+  }
+
